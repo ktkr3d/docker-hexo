@@ -4,6 +4,7 @@ Hexo on Docker
 ## Build image
 ```bash
 $ git clone https://github.com/ktkr3d/docker-hexo.git
+$ cd docker-hexo
 $ docker build -t local/hexo .
 ```
 
@@ -17,7 +18,7 @@ $ docker-compose down
 http://localhost:4000
 
 ## Hexo Web Admin
-http://localhost:4000/admin
+http://localhost:4000/admin  
 See also https://github.com/vladpurga/hexo-admin-deploy-command
 
 ## Hexo Command
