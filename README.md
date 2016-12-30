@@ -4,22 +4,28 @@ Hexo on Docker
 # Build
 
 ```bash
-$ git clone https://github.com/ktkr3d/docker-hexo
+$ git clone https://github.com/ktkr3d/docker-hexo.git
 $ docker build -t local/hexo .
 ```
 
 # Docker Compose Command
+
 ```bash
 $ docker-compose up -d
+$ docker-compose down
 ```
 
 # Hexo Web Preview
-`http://localhost:4000`
+
+- http://localhost:4000
 
 # Hexo Web Admin
-`http://localhost:4000/admin`
+
+- http://localhost:4000/admin
+  See https://github.com/vladpurga/hexo-admin-deploy-command
 
 # Hexo Command
+
 - docker exec hexo-server hexo new post "Test"
 - docker exec hexo-server hexo generate
 - docker exec hexo-server hexo deploy
