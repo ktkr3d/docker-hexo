@@ -1,9 +1,10 @@
 version: '2'
 services:
-  hexo-server:
+  hexo:
     restart: always
-    image: local/hexo
-    container_name: hexo-server
+    build:
+        context: hexo
+    container_name: hexo
     ports:
       - "4000:4000"
     volumes:

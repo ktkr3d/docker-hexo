@@ -23,7 +23,8 @@ See also https://github.com/vladpurga/hexo-admin-deploy-command
 
 ## Hexo Commands
 ```bash
-$ docker exec hexo-server hexo new post "Test"
-$ docker exec hexo-server hexo generate
-$ docker exec hexo-server hexo deploy
+$ docker exec hexo hexo new post "Test Post"
+$ docker exec hexo hexo new page "Test Page"
+$ docker exec hexo hexo generate
+$ docker exec hexo hexo deploy
 ```
