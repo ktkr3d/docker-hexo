@@ -1,7 +1,5 @@
 FROM node:alpine
 
-MAINTAINER ktkr3d, <ktkr3d@gmail.com>
-
 WORKDIR /hexo
 
 RUN \
@@ -27,4 +25,3 @@ COPY docker-entrypoint.sh /docker-entrypoint.sh
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
 CMD ['/bin/bash']
-
