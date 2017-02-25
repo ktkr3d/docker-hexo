@@ -1,15 +1,10 @@
 # docker-hexo
 Hexo on Docker
 
-## Build Image
+## Up and Down
 ```bash
 $ git clone https://github.com/ktkr3d/docker-hexo.git
 $ cd docker-hexo
-$ docker build -t local/hexo .
-```
-
-## Docker Compose Commands
-```bash
 $ docker-compose up -d
 $ docker-compose down
 ```
