@@ -4,6 +4,7 @@ WORKDIR /hexo
 
 RUN \
   apk add --no-cache git openssh-client \
+  && npm config set unsafe-perm true \
   && npm install hexo-cli -g \
   && hexo init . \
   && npm install \
