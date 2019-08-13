@@ -7,12 +7,12 @@ services:
     container_name: hexo
     ports:
       - "4000:4000"
-    volumes:
-     - /etc/localtime:/etc/localtime:ro
-     - $HOME/.ssh:/root/.ssh
-     - $PWD/source:/hexo/source
-     - $PWD/themes:/hexo/themes
-     - $PWD/_config.yml:/hexo/_config.yml
+#    volumes:
+#     - /etc/localtime:/etc/localtime:ro
+#     - $HOME/.ssh:/root/.ssh
+#     - $PWD/source:/hexo/source
+#     - $PWD/themes:/hexo/themes
+#     - $PWD/_config.yml:/hexo/_config.yml
     environment:
      - GIT_USER_NAME=ktkr3d
      - GIT_USER_EMAIL=ktkr3d@gmail.com
