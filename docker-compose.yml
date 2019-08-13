@@ -1,7 +1,7 @@
 version: '2'
 services:
   hexo:
-    restart: always
+#    restart: always
     build:
         context: hexo
     container_name: hexo
