@@ -5,6 +5,8 @@ Hexo on Docker
 ```bash
 $ git clone https://github.com/ktkr3d/docker-hexo.git
 $ cd docker-hexo
+$ export GIT_USER_NAME=hoge
+$ export GIT_USER_EMAIL=hoge@gmail.com
 $ docker-compose up -d
 $ docker-compose down
 ```
